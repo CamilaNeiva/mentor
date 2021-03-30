@@ -1,0 +1,16 @@
+@media only screen and (max-width: 1110px) {
+	.icon {
+		display:block;
+ }
+
+	.menu_nav {
+		display: none;
+ }
+
+	.btn_container {
+		display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+    margin-right: 10px;
+ }
+}
