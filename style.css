@@ -21,16 +21,23 @@ body {
 	box-sizing: border-box;
 }
 
-
 /*Header*/
 
 .header {
+	position: fixed;
+	width: 100%;
+	background-color: #fff;
+	padding: 8px 0 8px;
+}
+
+.header_container {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	max-width: 1140px;
 	margin: 0 auto;
-}
+	max-width: 1150px;
+	padding: 0 10px 0;
+ }
 
 .icon {
 	display: none;
@@ -63,7 +70,6 @@ body {
 	color: #5fcf80;
 }
 
-
 .menu_item {
 	margin: 3px 14px;
 }
@@ -80,4 +86,55 @@ body {
 
 .btn_menu:hover {
 	background-color: #3AC162;
+}
+
+/*Welcome*/
+
+.container {
+	background-image: url('images/overlay.png'), url('images/hero-bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	min-height: 500px;
+  padding-top: 180px;
+  background-position: center top;
+}
+
+.welcome_container {
+	max-width: 1150px;
+	padding: 0 10px 0;
+  margin: 0 auto;
+}
+
+.welcome_container h1 {
+	font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+  max-width: 500px;
+}
+
+.welcome_container p {
+	color: #eee;
+  margin: 10px 0 0 0;
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+  padding-bottom: 40px;
+}
+
+.btn_welcome {
+	display: inline-block;
+	color:#fff;
+	font-size: 15px;
+	letter-spacing: 1px;
+	padding: 12px 35px;
+	border-radius: 50px;
+	border: 2px solid #fff;;
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+}
+
+.btn_welcome:hover {
+	background-color: #3AC162;
+	border-color: #3AC162;
 }
