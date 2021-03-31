@@ -90,7 +90,7 @@ body {
 
 /*Welcome*/
 
-.container {
+.welcome_background {
 	background-image: url('images/overlay.png'), url('images/hero-bg.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -100,13 +100,13 @@ body {
   background-position: center top;
 }
 
-.welcome_background {
+.welcome_container {
 	max-width: 1150px;
 	padding: 0 10px;
   margin: 0 auto;
 }
 
-.welcome_background h1 {
+.welcome_container h1 {
 	font-size: 48px;
   font-weight: 700;
   line-height: 56px;
@@ -114,7 +114,7 @@ body {
   max-width: 500px;
 }
 
-.welcome_background p {
+.welcome_container p {
 	color: #eee;
   margin: 10px;
   font-size: 24px;
