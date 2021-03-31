@@ -1,6 +1,6 @@
 /* Reset */
 
-body, ul, li, h1, p {
+body, ul, li, h1, h2, h3, p { 
 	padding: 0px;
 	margin: 0px;
 }
@@ -43,7 +43,6 @@ body {
 	display: none;
 	color: #37423b;
 	font-size: 24px;
-
 }
 
 .menu_logo {
@@ -137,4 +136,41 @@ body {
 .btn_welcome:hover {
 	background-color: #3AC162;
 	border-color: #3AC162;
+}
+
+/*Introducao*/
+
+.intro {
+	max-width: 1150px;
+	padding: 0 10px;
+  margin: 0 auto;
+}
+
+.intro_titulo h2 {
+	font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 65px 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Poppins", sans-serif;
+}
+
+.intro_titulo h2::after {
+	content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #9ae1af;
+  margin: 4px 10px;
+}
+
+.intro_titulo p {
+	font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #37423b;
 }
