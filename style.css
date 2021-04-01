@@ -146,7 +146,7 @@ body {
   margin: 0 auto;
 }
 
-.intro_titulo h2 {
+.intro_sobre h2 {
 	font-size: 14px;
   font-weight: 500;
   padding: 0;
@@ -156,9 +156,9 @@ body {
   text-transform: uppercase;
   color: #aaaaaa;
   font-family: "Poppins", sans-serif;
-}
+ }
 
-.intro_titulo h2::after {
+.intro_sobre h2::after {
 	content: "";
   width: 120px;
   height: 1px;
@@ -167,10 +167,60 @@ body {
   margin: 4px 10px;
 }
 
-.intro_titulo p {
+.intro_sobre p {
 	font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   color: #37423b;
+  margin-bottom: 40px;
 }
+
+.intro_conteudo {
+ display: flex;
+}
+
+.intro_item {
+ font-style: italic;
+}
+
+.intro_titulo {
+//flex-wrap: wrap;
+}
+
+.intro_titulo h3 {
+	font-size: 26px;
+	font-family: "Raleway", sans-serif;
+	line-height: 1.2;
+	color: #444444;
+	margin-bottom: 10px;
+	max-width: 540px;
+}
+
+.intro_titulo p, ul {
+	font-family: "Open Sans", sans-serif;
+	color: #444444;
+	font-size: 16px;
+  line-height: 1.5;
+  //flex-direction: column;
+  margin-right: 20px;
+ }
+ 
+.intro_titulo li {
+ 	margin: 15px 0;
+ }
+
+ .check {
+ 	color: #5fcf80;
+ 	font-size: 20px;
+ 	padding-right: 6px;
+ }
+
+ .intro_interno {
+ 	margin: 25px 0 22px;
+ 	
+ }
+
+ .intro_image {
+ 	max-width: 540px;
+ }
