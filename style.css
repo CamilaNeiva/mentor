@@ -21,6 +21,10 @@ body {
 	box-sizing: border-box;
 }
 
+img {
+	max-width: 100%;
+}
+
 /*Header*/
 
 .header {
@@ -33,7 +37,6 @@ body {
 .header_container {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
 	margin: 0 auto;
 	max-width: 1150px;
 	padding: 0 10px;
@@ -54,11 +57,16 @@ body {
 	margin: 5px;
 }
 
+.menu_nav {
+	flex-grow: 1;
+}
+
 .menu_nav ul {
 	font-size: 15px;
 	font-weight: 500;
 	display: flex;
-	margin-left: 120px;
+	justify-content: flex-end;
+	font-family: "Poppins", sans-serif;
 }
 
 .menu_nav ul li a{
@@ -151,7 +159,7 @@ body {
   font-weight: 500;
   padding: 0;
   line-height: 1px;
-  margin: 65px 0 5px 0;
+  margin: 65px 0 5px;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaaaaa;
@@ -184,8 +192,8 @@ body {
  font-style: italic;
 }
 
-.intro_titulo {
-//flex-wrap: wrap;
+.intro_titulo, .intro_image {
+	flex: 1;
 }
 
 .intro_titulo h3 {
@@ -194,7 +202,6 @@ body {
 	line-height: 1.2;
 	color: #444444;
 	margin-bottom: 10px;
-	max-width: 540px;
 }
 
 .intro_titulo p, ul {
@@ -202,25 +209,19 @@ body {
 	color: #444444;
 	font-size: 16px;
   line-height: 1.5;
-  //flex-direction: column;
-  margin-right: 20px;
- }
+}
  
 .intro_titulo li {
  	margin: 15px 0;
- }
+}
 
  .check {
  	color: #5fcf80;
  	font-size: 20px;
  	padding-right: 6px;
- }
+}
 
  .intro_interno {
  	margin: 25px 0 22px;
- 	
- }
+}
 
- .intro_image {
- 	max-width: 540px;
- }

@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1110px) {
+@media only screen and (max-width: 1080px) {
 	.icon {
 		display:block;
  }
@@ -21,6 +21,9 @@
  .btn_welcome {
  	margin-left: 5px;
  }
+
+ 
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -33,6 +36,16 @@
   font-size: 18px;
   margin: 0 0 25px 0;
  }
+
+.btn_intro {
+	margin-left: 100px;
+}
+
+.intro_image {
+  margin: 30px 95px 0;
+}*/
+
+
 }
 
 
