@@ -26,7 +26,7 @@
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 780px) {
  .welcome_container h1 {
 	font-size: 28px;
   line-height: 36px;
@@ -37,13 +37,21 @@
   margin: 0 0 25px 0;
  }
 
-.btn_intro {
-	margin-left: 100px;
+.intro_conteudo {
+ flex-direction: column-reverse;
 }
 
-.intro_image {
-  margin: 30px 95px 0;
-}*/
+.intro_sobre p {
+	font-size: 25px;
+}
+
+.intro_titulo h3 {
+	font-size: 20px;
+}
+
+.intro_titulo p, ul {
+	font-size: 14px;
+}
 
 
 }
