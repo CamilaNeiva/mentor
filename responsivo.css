@@ -1,38 +1,54 @@
-@media only screen and (max-width: 1110px) {
+@media only screen and (max-width: 1080px) {
 	.icon {
 		display:block;
- }
+ 	}
 
 	.menu_nav {
 		display: none;
- }
+ 	}
 
-	.btn_container {
+  .btn_container {
 		display: flex;
     justify-content: flex-end;
     flex-grow: 1;
     margin-right: 10px;
- }
+ 	}
 
-.welcome_container h1, .welcome_container p {
- 	margin-left: 5px;
- }
+	.welcome_container h1, .welcome_container p {
+ 		margin-left: 5px;
+ 	}
 
- .btn_welcome {
- 	margin-left: 5px;
- }
+ 	.btn_welcome {
+ 		margin-left: 5px;
+ 	}
 }
 
-@media only screen and (max-width: 768px) {
- .welcome_container h1 {
-	font-size: 28px;
-  line-height: 36px;
- }
+@media only screen and (max-width: 780px) {
+	.welcome_container h1 {
+		font-size: 28px;
+  	line-height: 36px;
+ 	}
 
- .welcome_container p {
-  font-size: 18px;
-  margin: 0 0 25px 0;
- }
+ 	.welcome_container p {
+  	font-size: 18px;
+  	margin: 0 0 25px 0;
+ 	}
+
+ 	.intro_conteudo {
+  	flex-direction: column-reverse;
+ 	}
+
+ 	.intro_sobre p {
+		font-size: 25px;
+ 	}
+
+ 	.intro_titulo h3 {
+		font-size: 20px;
+ 	}
+
+ 	.intro_titulo p, ul {
+		font-size: 14px;
+ 	}
 }
 
 
