@@ -40,7 +40,7 @@ img {
 	margin: 0 auto;
 	max-width: 1150px;
 	padding: 0 10px;
- }
+}
 
 .icon {
 	display: none;
@@ -62,7 +62,7 @@ img {
 }
 
 .menu_nav ul {
-	font-size: 15px;
+  font-size: 15px;
 	font-weight: 500;
 	display: flex;
 	justify-content: flex-end;
@@ -164,7 +164,7 @@ img {
   text-transform: uppercase;
   color: #aaaaaa;
   font-family: "Poppins", sans-serif;
- }
+}
 
 .intro_sobre h2::after {
 	content: "";
@@ -185,11 +185,11 @@ img {
 }
 
 .intro_conteudo {
- display: flex;
+	display: flex;
 }
 
 .intro_item {
- font-style: italic;
+	font-style: italic;
 }
 
 .intro_titulo, .intro_image {
@@ -215,13 +215,13 @@ img {
  	margin: 15px 0;
 }
 
- .check {
+.check {
  	color: #5fcf80;
  	font-size: 20px;
  	padding-right: 6px;
 }
 
- .intro_interno {
+.intro_interno {
  	margin: 25px 0 22px;
 }
 
