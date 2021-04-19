@@ -49,6 +49,14 @@
  	.intro_titulo p, ul {
 		font-size: 14px;
  	}
+
+ 	.container_numero {
+ 		flex-wrap: wrap;
+ 	}
+
+ 	.numeros {
+ 		padding: 0 70px;
+ 	}
 }
 
 
