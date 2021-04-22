@@ -230,19 +230,22 @@ img {
 .bg_numeros {
 	background-color: #f6f7f6;
 	margin-top: 60px;
-  padding: 0 70px;
 }
 
 .container_numero {
 	display: flex;
-	justify-content: space-around;
+	max-width: 1150px;
+  margin: 0 auto;
+}
+
+.container_numero > div {
 	text-align: center;
-	padding-top: 50px;
+	padding: 50px 0;
+	flex:	1 1 325px;
 }
 
 .numeros {
 	font-size: 48px;
-  display: block;
   color: #5fcf80;
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
@@ -254,5 +257,5 @@ img {
   font-weight: 600;
   color: #37423b;
   padding-top: 10px;
-  margin-bottom: 50px;
 }
+
