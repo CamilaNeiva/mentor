@@ -225,3 +225,37 @@ img {
  	margin: 25px 0 22px;
 }
 
+/*Numeros*/
+
+.bg_numeros {
+	background-color: #f6f7f6;
+	margin-top: 60px;
+}
+
+.container_numero {
+	display: flex;
+	max-width: 1150px;
+  margin: 0 auto;
+}
+
+.container_numero > div {
+	text-align: center;
+	padding: 50px 0;
+	flex:	1 1 325px;
+}
+
+.numeros {
+	font-size: 48px;
+  color: #5fcf80;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+}
+
+.texto {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #37423b;
+  padding-top: 10px;
+}
+
