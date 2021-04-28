@@ -1,6 +1,6 @@
 /* Reset */
 
-body, ul, li, h1, h2, h3, p { 
+body, ul, li, h1, h2, h3, h4, p { 
 	padding: 0px;
 	margin: 0px;
 }
