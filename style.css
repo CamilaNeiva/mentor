@@ -259,3 +259,43 @@ img {
   padding-top: 10px;
 }
 
+/*Qualidades*/
+
+.qualidades {
+	margin: 60px 110px;
+}
+
+.qualidades_mentor {
+	background-color: #5fcf80;
+	color: #fff;
+	border-radius: 4px;
+}
+
+.qualidades_mentor h3 {
+	font-weight: 700;
+  font-size: 34px;
+  font-family: "Raleway";
+}
+
+.qualidades_mentor p {
+	padding: 30px 0;
+}
+
+.qualidades_container {
+	display: flex;
+	max-width: 1150px;
+  margin: 0 auto;
+}
+
+.qualidades_container > div {
+	text-align: left;
+	padding: 30px;
+	flex:	0 0 350px;
+}
+
+.qualidades_interno {
+	display: flex;
+	justify-content: space-between;
+}
+
+
