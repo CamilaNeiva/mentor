@@ -261,41 +261,70 @@ img {
 
 /*Qualidades*/
 
-.qualidades {
-	margin: 60px 110px;
+.qualidades_container {
+	max-width: 1150px;
+	padding: 60px 15px;
+  margin: 0 auto;
+  display: flex;
 }
 
-.qualidades_mentor {
+.qualidades_mentor{
+	flex: 0 0 350px;
 	background-color: #5fcf80;
 	color: #fff;
 	border-radius: 4px;
+	padding: 30px;
 }
 
 .qualidades_mentor h3 {
 	font-weight: 700;
   font-size: 34px;
   font-family: "Raleway";
+  margin-bottom: 30px;
 }
 
 .qualidades_mentor p {
-	padding: 30px 0;
+	margin-bottom: 30px;
+	font-size: 15px;
 }
 
-.qualidades_container {
-	display: flex;
-	max-width: 1150px;
-  margin: 0 auto;
+.qualidades_botao {
+	text-align: center;
+	margin-bottom: 10px;
 }
 
-.qualidades_container > div {
-	text-align: left;
-	padding: 30px;
-	flex:	0 0 350px;
+.botao_interno {
+	background-color: rgba(255, 255, 255, 0.2);
+	color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  padding: 8px 30px;
+}
+
+.botao_interno:hover {
+	background-color: #fff;
+	color: #5fcf80;
 }
 
 .qualidades_interno {
-	display: flex;
-	justify-content: space-between;
+	display: 	flex;
+	margin: 20px 0 20px 15px;
+}
+
+.qualidades_itens {
+	text-align: center;
+    background: #fff;
+    padding: 40px 30px;
+    width: 100%;
+    border: 1px solid #eef0ef;
+}
+
+.itens_internos {
+	margin: 0 15px;
+}
+
+.item_interno {
+	margin-left: 15px;
 }
 
 
