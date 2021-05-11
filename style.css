@@ -263,7 +263,7 @@ img {
 
 .qualidades_container {
 	max-width: 1150px;
-	padding: 60px 15px;
+	padding: 60px 0 0 15px;
   margin: 0 auto;
   display: flex;
 }
@@ -320,11 +320,7 @@ img {
 }
 
 .itens_internos {
-	margin: 0 15px;
-}
-
-.item_interno {
-	margin-left: 15px;
+	margin: 10px 15px;
 }
 
 .icone_qualidades {
