@@ -31,7 +31,6 @@
 	.qualidades_container {
 		flex-wrap: wrap;
 		flex-direction: column;
-		padding: 60px 15px;
 	}
 
 	.qualidades_interno {
