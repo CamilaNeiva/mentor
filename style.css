@@ -1,6 +1,6 @@
 /* Reset */
 
-body, ul, li, h1, h2, h3, p { 
+body, ul, li, h1, h2, h3, h4, p { 
 	padding: 0px;
 	margin: 0px;
 }
@@ -259,3 +259,89 @@ img {
   padding-top: 10px;
 }
 
+/*Qualidades*/
+
+.qualidades_container {
+	max-width: 1150px;
+	padding: 60px 15px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.qualidades_mentor {
+	display: flex; 
+	flex-direction:column;
+	flex: 0 0 350px;
+	background-color: #5fcf80;
+	color: #fff;
+	border-radius: 4px;
+	padding: 30px;
+}
+
+.qualidades_mentor h3 {
+	font-weight: 700;
+  font-size: 34px;
+  font-family: "Raleway";
+  margin-bottom: 30px;
+}
+
+.qualidades_mentor p {
+	margin-bottom: 30px;
+	font-size: 15px;
+}
+
+.botao_interno {
+	background-color: rgba(255, 255, 255, 0.2);
+	color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  padding: 8px 30px;
+  align-self: center;
+}
+
+.botao_interno:hover {
+	background-color: #fff;
+	color: #5fcf80;
+}
+
+.qualidades_interno {
+	display: 	flex;
+	margin: 20px 0 20px 15px;
+}
+
+.qualidades_itens {
+	text-align: center;
+  background: #fff;
+  padding: 40px 30px;
+  flex-grow: 1;
+  border: 1px solid #eef0ef;
+}
+
+.itens_internos {
+	margin: 10px 15px;
+}
+
+.itens_internos:last-child {
+  margin-right: 0px;
+}
+
+.icone_qualidades {
+	font-size: 22px;
+  padding: 22px;
+  color: #5fcf80;
+  margin-bottom: 30px;
+  background: #ecf9f0;
+  border-radius: 50px;
+}
+
+.qualidades_itens h4 {
+	font-size: 20px;
+	margin: 0 0 30px;
+  font-family: "Raleway", sans-serif;
+}
+
+.qualidades_itens p {
+	font-size: 15px;
+  color: #848484;
+  line-height: 1.5;
+}

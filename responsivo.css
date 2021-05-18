@@ -27,6 +27,24 @@
 	.container_numero {
 		flex-wrap: wrap;
 	}
+
+	.qualidades_container {
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+
+	.qualidades_interno {
+		flex-wrap: wrap;
+		margin: 0 auto;
+	}
+
+	.itens_internos {
+    margin: 10px 0px;
+  }
+
+  .qualidades_mentor {
+    flex: 0 0 270px;
+  }
 }
 
 @media only screen and (max-width: 780px) {
@@ -55,6 +73,7 @@
  	.intro_titulo p, ul {
 		font-size: 14px;
  	}
+
 }
 
 
