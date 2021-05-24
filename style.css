@@ -345,3 +345,15 @@ img {
   color: #848484;
   line-height: 1.5;
 }
+
+/*Serviços*/
+
+.servicos_container {
+	max-width: 1150px;
+	padding: 60px 15px;
+  margin: 0 auto;
+ }
+
+.servicos {
+	display: flex;
+}
