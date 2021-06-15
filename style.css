@@ -356,4 +356,13 @@ img {
 
 .servicos {
 	display: flex;
+	flex-wrap: wrap;
+}
+
+.servicos_itens {
+  text-align: left;
+  background: #fff;
+  padding: 20px;
+  flex: 1 1 0;
+  border: 1px solid red; /*#eef0ef*/
 }
