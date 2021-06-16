@@ -432,3 +432,74 @@ img {
 }
 
 /*Cursos*/
+
+.cursos_container {
+	max-width: 1150px;
+	padding: 60px 15px;
+  margin: 0 auto;
+}
+
+.cursos_titulo h2 {
+	font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 65px 0 5px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Poppins", sans-serif;
+}
+
+.cursos_titulo h2::after {
+	content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #9ae1af;
+  margin: 4px 10px;
+}
+
+.cursos_titulo p {
+	font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #37423b;
+  margin-bottom: 40px;
+}
+
+.cursos {
+	display: flex;
+	gap: 30px;
+}
+
+.cursos_interno {
+	display: flex;
+	justify-content: space-between;
+}
+.cursos_conteudo {
+	display: flex;
+	justify-content: space-between;
+}
+
+.cursos_conteudo img {
+	height: 50px;
+}
+
+.cursos_box {
+  border: 1px solid #eef0ef;
+}
+
+.usuario {
+	display: flex;
+	align-items: center;
+}
+
+.interacoes {
+	display: flex;
+}
+.interacao {
+	display: flex;
+	align-items: center;
+}
