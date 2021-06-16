@@ -352,7 +352,7 @@ img {
 	max-width: 1150px;
 	padding: 60px 15px;
   margin: 0 auto;
- }
+}
 
 .servicos {
 	display: flex;
@@ -363,13 +363,11 @@ img {
 .servicos li {
 	display: flex;
 	align-items: center;
-  text-align: left;
   background: #fff;
   padding: 20px;
   flex: 1 1 225px;
   border: 1px solid #eef0ef;
   font-size: 22px;
-  padding-right: 15px;
 }
 
 .servicos li:hover {
@@ -432,3 +430,5 @@ img {
 .fa-fingerprint {
 	color: #29cc61;
 }
+
+/*Cursos*/
