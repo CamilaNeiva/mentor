@@ -345,3 +345,90 @@ img {
   color: #848484;
   line-height: 1.5;
 }
+
+/*Serviços*/
+
+.servicos_container {
+	max-width: 1150px;
+	padding: 60px 15px;
+  margin: 0 auto;
+}
+
+.servicos {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+
+.servicos li {
+	display: flex;
+	align-items: center;
+  background: #fff;
+  padding: 20px;
+  flex: 1 1 225px;
+  border: 1px solid #eef0ef;
+  font-size: 22px;
+}
+
+.servicos li:hover {
+	border-color: #5fcf80;
+	color: #5fcf80;
+}
+
+.servicos li a {
+	font-size: 16px;
+	color: inherit;
+	font-weight: 700;
+	margin-left: 10px;
+	font-family: "Raleway", sans-serif;
+}
+
+.fa-store {
+	color:#ffbb2c;
+}
+
+.fa-poll {
+	color: #5578ff;
+}
+
+.fa-calendar-alt {
+	color: #e80368;
+}
+
+.fa-paint-roller {
+	color: #e361ff;
+}
+
+.fa-coins {
+	color: #47aeff;
+}
+
+.fa-bullseye {
+	color: #ffa76e;
+}
+
+.fa-file-alt {
+	color: #11dbcf;
+}
+
+.fa-warehouse {
+	color: #4233ff;
+}
+
+.fa-anchor {
+	color: #b2904f;
+}
+
+.fa-podcast {
+	color: #b20969;
+}
+
+.fa-broadcast-tower {
+	color: #ff5828;
+}
+
+.fa-fingerprint {
+	color: #29cc61;
+}
+
+/*Cursos*/
