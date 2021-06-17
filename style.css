@@ -23,6 +23,7 @@ body {
 
 img {
 	max-width: 100%;
+	display: block;
 }
 
 /*Header*/
@@ -444,7 +445,7 @@ img {
   font-weight: 500;
   padding: 0;
   line-height: 1px;
-  margin: 65px 0 5px;
+  margin: 5px 0px;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaaaaa;
@@ -481,6 +482,7 @@ img {
 .cursos_conteudo {
 	display: flex;
 	justify-content: space-between;
+	border-top: 3px solid red;
 }
 
 .cursos_conteudo img {
@@ -503,3 +505,24 @@ img {
 	display: flex;
 	align-items: center;
 }
+
+.teste {
+	padding: 15px;
+}
+
+.btn_cursos {
+	background:#5fcf80;
+	color:#fff;
+	font-size: 14px;
+	padding: 7px 14px;
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+	font-weight: 500;
+}
+
+.cursos_interno p {
+	font-weight: 600;
+	font-size: 18px;
+	color: #37423b;
+}
+
