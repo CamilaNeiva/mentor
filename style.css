@@ -249,7 +249,7 @@ img {
 	font-size: 48px;
   color: #5fcf80;
   font-weight: 700;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", monospace;
 }
 
 .texto {
@@ -482,7 +482,7 @@ img {
 .cursos_conteudo {
 	display: flex;
 	justify-content: space-between;
-	border-top: 3px solid red;
+	border-top: 1px solid #eef0ef;
 }
 
 .cursos_conteudo img {
@@ -504,10 +504,32 @@ img {
 .interacao {
 	display: flex;
 	align-items: center;
+	padding-left: 12px;
+	margin-top: 8px;
 }
 
-.teste {
+.cursos_itens {
 	padding: 15px;
+}
+
+.cursos_itens a {
+	font-size: 20px;
+	color: #37423b;
+	font-family:  "Raleway", sans-serif;
+	font-weight: 700;
+}
+
+.cursos_itens a:hover {
+	color: #5fcf80;
+}
+
+
+.cursos_itens p {
+	font-size: 14px;
+  color: #777777;
+  font-family: "Open Sans", monospace;
+  line-height: 21px;
+  margin: 5px 0 12px;
 }
 
 .btn_cursos {
@@ -518,6 +540,7 @@ img {
 	text-align: center;
 	font-family: "Raleway", sans-serif;
 	font-weight: 500;
+	margin-bottom: 15px;
 }
 
 .cursos_interno p {
@@ -526,3 +549,31 @@ img {
 	color: #37423b;
 }
 
+.usuario img {
+	margin-top: 15px;
+	border-radius: 50%;
+}
+
+.usuario p {
+	font-weight: 600;
+  font-size: 16px;
+  color: #5a6c60;
+  padding-left: 10px;
+  font-family: "Open Sans", sans-serif;
+	margin-top: 25px;
+}
+
+.interacao span, i {
+	font-weight: 400;
+  color: #5a6c60;
+  padding-left: 5px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.interacao span {
+ 	font-size: 18px;
+}
+
+.interacao i {
+ 	font-size: 15px;
+}
