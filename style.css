@@ -23,6 +23,7 @@ body {
 
 img {
 	max-width: 100%;
+	display: block;
 }
 
 /*Header*/
@@ -304,6 +305,10 @@ img {
 	color: #5fcf80;
 }
 
+.botao_interno i {
+	color: inherit;
+}
+
 .qualidades_interno {
 	display: 	flex;
 	margin: 20px 0 20px 15px;
@@ -432,3 +437,145 @@ img {
 }
 
 /*Cursos*/
+
+.cursos_container {
+	max-width: 1150px;
+	padding: 60px 15px;
+  margin: 0 auto;
+}
+
+.cursos_titulo h2 {
+	font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 5px 0px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Poppins", sans-serif;
+}
+
+.cursos_titulo h2::after {
+	content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #9ae1af;
+  margin: 4px 10px;
+}
+
+.cursos_titulo p {
+	font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #37423b;
+  margin-bottom: 40px;
+}
+
+.cursos {
+	display: flex;
+	gap: 30px;
+}
+
+.cursos_item_titulo {
+	display: flex;
+	justify-content: space-between;
+}
+.cursos_item_info {
+	display: flex;
+	justify-content: space-between;
+	border-top: 1px solid #eef0ef;
+	margin-top: 10px;
+  padding-top: 15px;
+}
+
+.cursos_item_info img {
+	height: 50px;
+}
+
+.cursos_item {
+  border: 1px solid #eef0ef;
+}
+
+.usuario {
+	display: flex;
+	align-items: center;
+}
+
+.interacoes {
+	display: flex;
+	gap: 12px;
+}
+.interacao {
+	display: flex;
+	align-items: center;
+}
+
+.cursos_item_box {
+	padding: 15px;
+}
+
+.cursos_item_box a {
+	font-size: 20px;
+	color: #37423b;
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+}
+
+.cursos_item_box a:hover {
+	color: #5fcf80;
+}
+
+
+.cursos_item_box p {
+	font-size: 14px;
+  color: #777777;
+  font-family: "Open Sans", sans-serif;
+  line-height: 21px;
+}
+
+.cursos_item_titulo .label {
+	background:#5fcf80;
+	color:#fff;
+	font-size: 14px;
+	padding: 7px 14px;
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+
+.cursos_item_titulo p {
+	font-weight: 600;
+	font-size: 18px;
+	color: #37423b;
+}
+
+.usuario img {
+	border-radius: 50%;
+}
+
+.usuario p {
+	font-weight: 600;
+  font-size: 16px;
+  color: #5a6c60;
+  padding-left: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.interacao span, i {
+	font-weight: 400;
+  color: #5a6c60;
+  padding-left: 5px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.interacao span {
+ 	font-size: 18px;
+}
+
+.interacao i {
+ 	font-size: 15px;
+}
