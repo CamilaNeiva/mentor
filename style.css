@@ -249,7 +249,7 @@ img {
 	font-size: 48px;
   color: #5fcf80;
   font-weight: 700;
-  font-family: "Open Sans", monospace;
+  font-family: "Open Sans", sans-serif;
 }
 
 .texto {
@@ -303,6 +303,10 @@ img {
 .botao_interno:hover {
 	background-color: #fff;
 	color: #5fcf80;
+}
+
+.botao_interno i {
+	color: inherit;
 }
 
 .qualidades_interno {
@@ -475,21 +479,23 @@ img {
 	gap: 30px;
 }
 
-.cursos_interno {
+.cursos_item_titulo {
 	display: flex;
 	justify-content: space-between;
 }
-.cursos_conteudo {
+.cursos_item_info {
 	display: flex;
 	justify-content: space-between;
 	border-top: 1px solid #eef0ef;
+	margin-top: 10px;
+  padding-top: 15px;
 }
 
-.cursos_conteudo img {
+.cursos_item_info img {
 	height: 50px;
 }
 
-.cursos_box {
+.cursos_item {
   border: 1px solid #eef0ef;
 }
 
@@ -500,39 +506,37 @@ img {
 
 .interacoes {
 	display: flex;
+	gap: 12px;
 }
 .interacao {
 	display: flex;
 	align-items: center;
-	padding-left: 12px;
-	margin-top: 8px;
 }
 
-.cursos_itens {
+.cursos_item_box {
 	padding: 15px;
 }
 
-.cursos_itens a {
+.cursos_item_box a {
 	font-size: 20px;
 	color: #37423b;
-	font-family:  "Raleway", sans-serif;
+	font-family: "Raleway", sans-serif;
 	font-weight: 700;
 }
 
-.cursos_itens a:hover {
+.cursos_item_box a:hover {
 	color: #5fcf80;
 }
 
 
-.cursos_itens p {
+.cursos_item_box p {
 	font-size: 14px;
   color: #777777;
-  font-family: "Open Sans", monospace;
+  font-family: "Open Sans", sans-serif;
   line-height: 21px;
-  margin: 5px 0 12px;
 }
 
-.btn_cursos {
+.cursos_item_titulo .label {
 	background:#5fcf80;
 	color:#fff;
 	font-size: 14px;
@@ -543,14 +547,13 @@ img {
 	margin-bottom: 15px;
 }
 
-.cursos_interno p {
+.cursos_item_titulo p {
 	font-weight: 600;
 	font-size: 18px;
 	color: #37423b;
 }
 
 .usuario img {
-	margin-top: 15px;
 	border-radius: 50%;
 }
 
@@ -560,7 +563,6 @@ img {
   color: #5a6c60;
   padding-left: 10px;
   font-family: "Open Sans", sans-serif;
-	margin-top: 25px;
 }
 
 .interacao span, i {
