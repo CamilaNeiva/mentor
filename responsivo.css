@@ -73,11 +73,10 @@
  	.intro_titulo p, ul {
 		font-size: 14px;
  	}
-
 }
 
 @media only screen and (max-width: 676px) {
-	.cursos_item {
+	.cursos_item, .professores_item {
 		max-width: 100%;
 	}
 }
