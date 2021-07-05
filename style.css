@@ -205,7 +205,7 @@ img {
 	margin-bottom: 10px;
 }
 
-.intro_titulo p, ul {
+.intro_titulo p, .intro_titulo ul {
 	font-family: "Open Sans", sans-serif;
 	color: #444444;
 	font-size: 16px;
@@ -650,3 +650,50 @@ img {
 .professores_icones a:hover {
 	color: #5fcf80;
 }
+
+
+/*Footer 1*/
+
+.footer {
+	background-color: #f9faf9;
+}
+
+.footer_container {
+	max-width: 1150px;
+	padding: 60px 15px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.dados h2 {
+	font-family: "Raleway", sans-serif;
+	color: #37423b; 
+	font-weight: 500;
+	font-size: 28px;
+}
+
+.enderecos, .contatos {
+	font-family: "Raleway", sans-serif;
+	color: #777777; 
+	font-size: 14px;
+}
+
+.enderecos {
+	margin: 12px 0 28px;
+}
+
+.links h3, .servicos_links h3, .newsletter h3 {
+	font-family: "Raleway", sans-serif;
+	font-size: 16px;
+  color: #444444;
+  margin-bottom: 15px;
+}
+
+.links li i, .servicos_links li i {
+	padding-right: 8px;
+  color: #5fcf80;
+  font-size: 14px;
+}
+
+
+
