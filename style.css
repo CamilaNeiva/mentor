@@ -663,6 +663,11 @@ img {
 	padding: 60px 15px;
   margin: 0 auto;
   display: flex;
+  gap: 30px;
+}
+
+.dados, .links, .servicos_links {
+	flex-grow: 1;
 }
 
 .dados h2 {
@@ -680,6 +685,11 @@ img {
 
 .enderecos {
 	margin: 12px 0 28px;
+	line-height: 25px;
+}
+
+.contatos {
+	line-height: 25px;
 }
 
 .links h3, .servicos_links h3, .newsletter h3 {
@@ -695,5 +705,54 @@ img {
   font-size: 14px;
 }
 
+.conteudos_links li a {
+	color: #777777;
+	font-size: 14px;
+	font-family: "Open Sans", sans-serif;
+	line-height: 40px;
+}
 
+.conteudos_links li a:hover {
+	color: #5fcf80;
+}
 
+.newsletter {
+	max-width: 360px;
+}
+
+.newsletter p {
+	color: #37423b;
+	font-size: 15px;
+	font-family: "Open Sans", sans-serif;
+}
+
+.newsletter_form {
+	display: flex;
+	margin-top: 30px;
+  background: #fff;
+  border-radius: 50px;
+  text-align: left;
+  border: 1px solid #e0e5e2;
+  padding-left: 25px;
+}
+
+.newsletter_form button {
+	background:#5fcf80;
+	color:#fff;
+	font-size: 16px;
+	padding: 10px 25px;
+	border-radius: 50px;
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+	border: 1px solid #5fcf80;
+	cursor: pointer;
+}
+
+.newsletter_form button:hover {
+	background-color: #3ac162;
+}
+
+.newsletter_form input {
+	border: none;
+	flex-grow: 1;
+}
