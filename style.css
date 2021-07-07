@@ -205,7 +205,7 @@ img {
 	margin-bottom: 10px;
 }
 
-.intro_titulo p, ul {
+.intro_titulo p, .intro_titulo ul {
 	font-family: "Open Sans", sans-serif;
 	color: #444444;
 	font-size: 16px;
@@ -649,4 +649,111 @@ img {
 
 .professores_icones a:hover {
 	color: #5fcf80;
+}
+
+
+/*Footer 1*/
+
+.footer {
+	background-color: #f9faf9;
+}
+
+.footer_container {
+	max-width: 1150px;
+	padding: 60px 15px;
+  margin: 0 auto;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.dados, .links, .servicos_links {
+	flex-grow: 1;
+}
+
+.dados h2 {
+	font-family: "Raleway", sans-serif;
+	color: #37423b; 
+	font-weight: 500;
+	font-size: 28px;
+}
+
+.enderecos, .contatos {
+	font-family: "Raleway", sans-serif;
+	color: #777777; 
+	font-size: 14px;
+}
+
+.enderecos {
+	margin: 12px 0 28px;
+	line-height: 25px;
+}
+
+.contatos {
+	line-height: 25px;
+}
+
+.links h3, .servicos_links h3, .newsletter h3 {
+	font-family: "Raleway", sans-serif;
+	font-size: 16px;
+  color: #444444;
+  margin-bottom: 15px;
+}
+
+.links li i, .servicos_links li i {
+	padding-right: 8px;
+  color: #5fcf80;
+  font-size: 14px;
+}
+
+.conteudos_links li a {
+	color: #777777;
+	font-size: 14px;
+	font-family: "Open Sans", sans-serif;
+	line-height: 40px;
+}
+
+.conteudos_links li a:hover {
+	color: #5fcf80;
+}
+
+.newsletter {
+	max-width: 360px;
+	flex-grow: 1;
+}
+
+.newsletter p {
+	color: #37423b;
+	font-size: 15px;
+	font-family: "Open Sans", sans-serif;
+}
+
+.newsletter_form {
+	display: flex;
+	margin-top: 30px;
+  background: #fff;
+  border-radius: 50px;
+  border: 1px solid #e0e5e2;
+  padding-left: 25px;
+}
+
+.newsletter_form button {
+	background:#5fcf80;
+	color:#fff;
+	font-size: 16px;
+	padding: 10px 25px;
+	border-radius: 50px;
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+	border: 1px solid #5fcf80;
+	cursor: pointer;
+}
+
+.newsletter_form button:hover {
+	background-color: #3ac162;
+}
+
+.newsletter_form input {
+	border: none;
+	flex-grow: 1;
 }
