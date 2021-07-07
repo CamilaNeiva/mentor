@@ -757,3 +757,46 @@ img {
 	border: none;
 	flex-grow: 1;
 }
+
+
+/*Footer 2*/
+
+.footer2 {
+	background-color: #eef0ef;
+}
+
+.footer2_container {
+	max-width: 1150px;
+	padding: 60px 15px;
+  margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.social {
+	background: #5fcf80;
+  color: #fff;
+  font-size: 13px;
+  padding: 9px 12px;
+  border-radius: 100px;
+  margin-left: 5px;
+}
+
+.social_face{
+	background: #5fcf80;
+  color: #fff;
+  font-size: 13px;
+  padding: 9px 14px;
+  border-radius: 100px;
+  margin-left: 5px;
+}
+
+.social:hover, .social_face:hover {
+	background-color: #3ac162;
+}
+
+.navegacao_topo {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+}
