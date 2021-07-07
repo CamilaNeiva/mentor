@@ -45,7 +45,19 @@
   .qualidades_mentor {
     flex: 0 0 270px;
   }
-}
+
+  .footer_container {
+  	flex-wrap: wrap;
+  }
+
+  .dados, .links, .servicos_links, .newsletter {
+  	flex: 1 0 350px;
+  }
+
+  .newsletter {
+  	max-width: none;
+  }
+ }
 
 @media only screen and (max-width: 780px) {
 	.welcome_container h1 {
@@ -78,6 +90,10 @@
 @media only screen and (max-width: 676px) {
 	.cursos_item, .professores_item {
 		max-width: 100%;
+	}
+
+	.footer_container {
+		flex-direction: column;
 	}
 }
 
