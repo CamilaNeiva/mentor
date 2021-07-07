@@ -664,6 +664,7 @@ img {
   margin: 0 auto;
   display: flex;
   gap: 30px;
+  flex-wrap: wrap;
 }
 
 .dados, .links, .servicos_links {
@@ -718,6 +719,7 @@ img {
 
 .newsletter {
 	max-width: 360px;
+	flex-grow: 1;
 }
 
 .newsletter p {
@@ -731,7 +733,6 @@ img {
 	margin-top: 30px;
   background: #fff;
   border-radius: 50px;
-  text-align: left;
   border: 1px solid #e0e5e2;
   padding-left: 25px;
 }
