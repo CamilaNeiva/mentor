@@ -76,6 +76,7 @@ img {
 
 .menu_nav ul a:hover {
 	color: #5fcf80;
+  transition: 300ms;
 }
 
 .menu_item {
@@ -94,6 +95,7 @@ img {
 
 .btn_menu:hover {
 	background-color: #3AC162;
+  transition: 300ms;
 }
 
 /*Welcome*/
@@ -145,6 +147,7 @@ img {
 .btn_welcome:hover {
 	background-color: #3AC162;
 	border-color: #3AC162;
+  transition: 300ms;
 }
 
 /*Introducao*/
@@ -187,6 +190,7 @@ img {
 
 .intro_conteudo {
 	display: flex;
+	gap: 30px;
 }
 
 .intro_item {
@@ -203,6 +207,7 @@ img {
 	line-height: 1.2;
 	color: #444444;
 	margin-bottom: 10px;
+	font-weight: 600;
 }
 
 .intro_titulo p, .intro_titulo ul {
@@ -303,6 +308,7 @@ img {
 .botao_interno:hover {
 	background-color: #fff;
 	color: #5fcf80;
+  transition: 300ms;
 }
 
 .botao_interno i {
@@ -373,12 +379,12 @@ img {
   flex: 1 1 225px;
   border: 1px solid #eef0ef;
   font-size: 22px;
-  transition: 300ms;	
 }
 
 .servicos li:hover {
 	border-color: #5fcf80;
 	color: #5fcf80;
+  transition: 300ms;
 }
 
 .servicos li a {
@@ -531,6 +537,7 @@ img {
 
 .cursos_item_box a:hover {
 	color: #5fcf80;
+  transition: 300ms;
 }
 
 
@@ -649,6 +656,7 @@ img {
 
 .professores_icones a:hover {
 	color: #5fcf80;
+  transition: 300ms;
 }
 
 
@@ -715,6 +723,7 @@ img {
 
 .conteudos_links li a:hover {
 	color: #5fcf80;
+  transition: 300ms;
 }
 
 .newsletter {
@@ -751,9 +760,79 @@ img {
 
 .newsletter_form button:hover {
 	background-color: #3ac162;
+  transition: 300ms;
 }
 
 .newsletter_form input {
 	border: none;
 	flex-grow: 1;
+}
+
+
+/*Footer 2*/
+
+.footer2 {
+	background-color: #eef0ef;
+}
+
+.footer2_container {
+	max-width: 1150px;
+	padding: 24px 15px;
+  margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.redes_sociais {
+	display: flex;
+	gap: 8px;
+}
+
+.botao_redondo {
+	background: #5fcf80;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 50%;
+  height: 36px;
+  width: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botao_redondo:hover {
+	background-color: #3ac162;
+  transition: 300ms;
+}
+
+.navegacao_topo {
+	position: fixed;
+	bottom: 10px;
+	right: 15px;
+	width: 40px;
+	height: 40px;
+	font-size: 18px;
+	z-index: 99999999;
+}
+
+.creditos {
+	color: #37423b;
+	font-family: "Open Sans", sans-serif;
+}
+
+.creditos p:first-child {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.creditos p:nth-child(2) {
+	font-size: 13px;
+	line-height: 19.5px;
+	padding-top: 5px;
+}
+
+.creditos a {
+	color: #5fcf80;
 }
