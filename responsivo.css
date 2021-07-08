@@ -74,7 +74,7 @@
  	}
 
  	.intro_titulo h3 {
-		font-size: 20px;
+		font-size: 25px;
  	}
 
  	.intro_titulo p, ul {
@@ -94,6 +94,15 @@
 		flex-direction: column;
 		gap: 60px;
 	}
+
+	.footer2_container {
+		flex-direction: column;
+		gap: 16px;
+ 	}
+
+ 	.creditos {
+ 		text-align: center;
+ 	}
 }
 
 
